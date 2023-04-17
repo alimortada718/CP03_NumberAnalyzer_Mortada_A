@@ -1,0 +1,20 @@
+
+@startuml
+
++class NumberAnalyzer
+{
+
+-numbers: T[]   
+
+..methods..
+
+
++NumberAnalyzer(T[] numbers)
++getHighestNumbers(): T
++getlowestNumbers(): T
++getTotalNumbers(): double
++getAverageNumbers(): double
+
+}
+
+@enduml
